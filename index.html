@@ -3,9 +3,149 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello, People</title>
+    <meta name="theme-color" content="#ffffff">
+    <meta
+      name="description"
+      content="Pin Web to PDF to your Chrome toolbar and save any webpage as a PDF."
+    >
+    <title>Web to PDF is installed! Here’s how to get started.</title>
+    <link rel="icon" type="image/png" sizes="128x128" href="assets/pdf-icon-128.png">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1>Hello, People</h1>
+    <main class="page">
+      <header class="intro" aria-labelledby="welcome-title">
+        <h1 id="welcome-title">
+          <span class="headline-main">Web to PDF <span class="headline-keep">is installed!&nbsp;🎉</span></span>
+          <span class="headline-sub">Here’s how to get started.</span>
+        </h1>
+      </header>
+
+      <section class="instruction" aria-labelledby="pin-step">
+        <h2 class="step" id="pin-step">
+          Open Extensions (1) in the top-right corner of Chrome. Then click the pin (2) next to Web to PDF.
+        </h2>
+
+        <div
+          class="browser-shot browser-shot--pin"
+          role="img"
+          aria-label="Open Chrome Extensions, then pin Web to PDF"
+        >
+          <div class="chrome-tabs" aria-hidden="true">
+            <span class="window-controls"><i></i><i></i><i></i></span>
+            <span class="active-tab"><span class="tab-favicon"></span><span class="tab-title"></span><b>×</b></span>
+            <span class="new-tab">+</span>
+          </div>
+
+          <div class="chrome-toolbar" aria-hidden="true">
+            <span class="nav-control">‹</span>
+            <span class="nav-control">›</span>
+            <span class="nav-control nav-control--reload">↻</span>
+            <span class="address-bar"></span>
+            <span class="puzzle-icon">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M8.8 3.8h3.6c.8 0 1.4.6 1.4 1.4v1.2c0 .5.4.9.9.9h1.2c1.4 0 2.5 1.1 2.5 2.5v2.1H17a2 2 0 0 0 0 4h1.4v2.2c0 1.4-1.1 2.5-2.5 2.5h-2.4v-1.3a2 2 0 0 0-4 0v1.3H7.1a2.5 2.5 0 0 1-2.5-2.5v-3.2H6a2 2 0 1 0 0-4H4.6V8.6a2.5 2.5 0 0 1 2.5-2.5h1c.4 0 .7-.3.7-.7V3.8Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <span class="profile-dot"></span>
+            <span class="menu-dots">⋮</span>
+          </div>
+
+          <div class="browser-content" aria-hidden="true">
+            <div class="google-word" aria-hidden="true">
+              <span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span>
+            </div>
+            <div class="search-field"></div>
+          </div>
+
+          <div class="extensions-menu" aria-hidden="true">
+            <div class="extensions-menu__header">
+              <strong>Extensions</strong>
+              <span>×</span>
+            </div>
+            <p>Full access</p>
+            <small>These extensions can read and change site data.</small>
+            <div class="extension-row">
+              <img src="assets/pdf-icon-128.png" alt="">
+              <strong>Web to PDF</strong>
+              <span class="pin-icon">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M9.2 4.3h5.6l-.8 5 3.2 3.3v1.7H6.8v-1.7L10 9.3l-.8-5Z" fill="currentColor"/>
+                  <path d="M12 14.1v5.6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </span>
+              <span class="row-menu">⋮</span>
+            </div>
+            <div class="manage-row"><span>⚙</span> Manage extensions</div>
+          </div>
+
+          <span class="number-marker number-marker--one" aria-hidden="true">1</span>
+          <span class="number-marker number-marker--two" aria-hidden="true">2</span>
+
+          <svg class="annotations" viewBox="0 0 910 464" preserveAspectRatio="none" aria-hidden="true">
+            <defs>
+              <marker id="arrowhead-pin" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto" markerUnits="strokeWidth">
+                <path d="M0,0 L8,4 L0,8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </marker>
+            </defs>
+            <path class="annotation-path" d="M500 132 C590 82 687 63 778 64" marker-end="url(#arrowhead-pin)"/>
+            <path class="annotation-path" d="M523 238 C620 210 722 209 804 218" marker-end="url(#arrowhead-pin)"/>
+            <circle class="annotation-ring" cx="790" cy="63" r="31"/>
+            <circle class="annotation-ring" cx="814" cy="219" r="31"/>
+          </svg>
+        </div>
+      </section>
+
+      <section class="instruction instruction--last" aria-labelledby="open-step">
+        <h2 class="step" id="open-step">
+          You’re ready! Click the PDF icon (3) whenever you want to save a webpage.
+        </h2>
+
+        <div
+          class="browser-shot browser-shot--open"
+          role="img"
+          aria-label="Click the Web to PDF icon in the Chrome toolbar"
+        >
+          <div class="chrome-tabs" aria-hidden="true">
+            <span class="window-controls"><i></i><i></i><i></i></span>
+            <span class="active-tab"><span class="tab-favicon"></span><span class="tab-title"></span><b>×</b></span>
+            <span class="new-tab">+</span>
+          </div>
+
+          <div class="chrome-toolbar" aria-hidden="true">
+            <span class="nav-control">‹</span>
+            <span class="nav-control">›</span>
+            <span class="nav-control nav-control--reload">↻</span>
+            <span class="address-bar"></span>
+            <span class="toolbar-pdf-icon"><img src="assets/pdf-icon-128.png" alt=""></span>
+            <span class="puzzle-icon puzzle-icon--small">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M8.8 3.8h3.6c.8 0 1.4.6 1.4 1.4v1.2c0 .5.4.9.9.9h1.2c1.4 0 2.5 1.1 2.5 2.5v2.1H17a2 2 0 0 0 0 4h1.4v2.2c0 1.4-1.1 2.5-2.5 2.5h-2.4v-1.3a2 2 0 0 0-4 0v1.3H7.1a2.5 2.5 0 0 1-2.5-2.5v-3.2H6a2 2 0 1 0 0-4H4.6V8.6a2.5 2.5 0 0 1 2.5-2.5h1c.4 0 .7-.3.7-.7V3.8Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <span class="menu-dots">⋮</span>
+          </div>
+
+          <div class="browser-content" aria-hidden="true">
+            <div class="google-word" aria-hidden="true">
+              <span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span>
+            </div>
+            <div class="search-field"></div>
+          </div>
+
+          <span class="number-marker number-marker--three" aria-hidden="true">3</span>
+
+          <svg class="annotations" viewBox="0 0 910 464" preserveAspectRatio="none" aria-hidden="true">
+            <defs>
+              <marker id="arrowhead-open" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto" markerUnits="strokeWidth">
+                <path d="M0,0 L8,4 L0,8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </marker>
+            </defs>
+            <path class="annotation-path" d="M525 140 C615 205 712 198 790 82" marker-end="url(#arrowhead-open)"/>
+            <circle class="annotation-ring" cx="807" cy="64" r="32"/>
+          </svg>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
