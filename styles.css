@@ -100,6 +100,39 @@ h1 {
   box-shadow: var(--image-shadow);
 }
 
+@media (min-width: 1600px) {
+  .page {
+    width: min(100%, 1400px);
+  }
+
+  .intro {
+    max-width: 880px;
+    margin-bottom: 32px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .headline-sub {
+    font-size: 36px;
+  }
+
+  .step {
+    max-width: 960px;
+    margin-bottom: 24px;
+    font-size: 23px;
+  }
+
+  .instruction + .instruction {
+    margin-top: 48px;
+  }
+
+  .browser-shot {
+    width: min(58vw, 1080px);
+  }
+}
+
 @media (min-width: 2200px) {
   .page {
     width: min(100%, 1560px);
