@@ -55,15 +55,14 @@ h1 {
 }
 
 .headline-product {
-  display: inline-flex;
-  align-items: center;
-  gap: clamp(10px, 1.1vw, 16px);
-  white-space: nowrap;
+  display: block;
+  text-align: center;
 }
 
 .headline-mascot {
-  display: block;
-  flex: 0 0 auto;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: clamp(10px, 1.1vw, 16px);
   width: 1.8em;
   height: auto;
 }
@@ -197,13 +196,6 @@ h1 {
     white-space: normal;
   }
 
-  .headline-product {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    white-space: normal;
-  }
-
   .instruction + .instruction {
     margin-top: 36px;
   }
@@ -222,12 +214,9 @@ h1 {
 }
 
 @media (max-width: 420px) {
-  .headline-product {
-    gap: 8px;
-  }
-
   .headline-mascot {
     width: 1.55em;
+    margin-right: 8px;
     margin-top: 0.08em;
   }
 }
