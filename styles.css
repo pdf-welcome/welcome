@@ -63,7 +63,8 @@ h1 {
   display: inline-block;
   /* The source includes transparent padding; align its visible artwork to the capitals. */
   vertical-align: -0.39em;
-  margin-right: 0.05em;
+  /* Compensate for transparent padding so the visible gap matches ! → 🎉. */
+  margin-right: -0.33em;
   width: 2.25em;
   height: auto;
 }
